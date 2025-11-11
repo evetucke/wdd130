@@ -1,0 +1,52 @@
+/* Add your CSS here to style your halloween page */
+
+body {
+    background: rgb(197, 106, 41);
+    text-align: center;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+}
+#wrapper {
+background: black;
+}
+nav {
+    background-color: rgb(197, 106, 41);
+}
+nav ul {
+    display: flex;
+    padding: 35px;
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+li {
+    padding: 10px;  
+}
+h2 {
+    border: 2px solid white;
+    border-radius: 20%;
+    background-color: purple
+}
+section p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.1em;
+}
+footer {
+    background-color: rgb(197, 106, 41);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+#wrapper img {
+    border: 2px solid white;
+}
+nav ul :hover {
+    background-color: black;
+    width: 100px;
+    height: 20px;  
+}
+
+
