@@ -162,5 +162,40 @@ li {
 footer a:hover {
     color: white;
 }
+.report {
+    max-width: 900px;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0 auto !important;
+}
+.report_title {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 0.5rem;
+}
+.section_title {
+    font-size: 1.6em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.answer {
+    font-family: 'Courier New', Courier, monospace;
+}
+.site_link {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.site_link a {
+    color: blue;
+    text-decoration: none;
+}
+.site_link a:hover {
+    text-decoration: underline;
+}
 
 
